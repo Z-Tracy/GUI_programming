@@ -1,0 +1,4 @@
+# GUI_programming
+基本组件的了解
+首先会介绍tkinter的基本组件使用
+然后会结合实际进行GUI编写
