@@ -93,7 +93,7 @@ class Window:
         port_2 = 'http://www.wmxz.wang/video.php?url='
         port_3 = 'http://www.vipjiexi.com/yun.php?url='
         #正则表达是判定是否为合法链接
-        if re.match(r'^https?:/{2}\w.+$', self.url.get()):==
+        if re.match(r'^https?:/{2}\w.+$', self.url.get()):
 
             #限定每次仅可以选择一个通道
             if (self.b1.get() + self.b2.get() + self.b3.get()) !=1:
